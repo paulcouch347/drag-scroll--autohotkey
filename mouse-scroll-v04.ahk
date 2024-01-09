@@ -17,7 +17,7 @@ swap := true 				; swap scroll direction
 horiz := false 
 ; horiz := true 			; use horizontal movement as input
 
-k := 2					; scroll speed coefficient (higher k means higher speed)
+k := 1					; scroll speed coefficient (higher k means higher speed)
 
 ; === Internal settings ===
 scrollsLimit := 15			; max amount of scroll at once 
