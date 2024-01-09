@@ -60,16 +60,16 @@ loop
 	}
 }
 
-rbutton::
+lbutton::
 	running := 1
 	dyTotal := 0
 	mousegetpos, mxLast, myLast
 return
 
-rbutton up::
+lbutton up::
 	running := 0
 	if (scrollsTotal = 0) 
-		send {rbutton}
+		send {lbutton}
 	scrollsTotal := 0
 return
 
