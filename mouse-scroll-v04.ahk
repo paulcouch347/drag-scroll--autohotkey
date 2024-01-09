@@ -14,15 +14,15 @@ running := 0
 swap := false 
 ; swap := true 				; swap scroll direction
 
-; horiz := false 
-horiz := true 				; use horizontal movement as input
+horiz := false 
+; horiz := true 				; use horizontal movement as input
 
 k := 2					; scroll speed coefficient (higher k means higher speed)
 
 ; === Internal settings ===
 scrollsLimit := 15			; max amount of scroll at once 
 S := 12						; unit distance (higher S = lower speed)
-T := 30					; scan frequency in MS (
+T := 10					; scan frequency in MS (
 
 ; ==============
 
